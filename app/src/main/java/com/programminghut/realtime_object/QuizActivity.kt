@@ -115,6 +115,14 @@ class QuizActivity : AppCompatActivity() {
             cameraResultLauncher.launch(intent)
         }
 
+        val bunsenBurnerButton: Button = findViewById(R.id.bunsenBurnerButton)
+        bunsenBurnerButton.setOnClickListener {
+            selectedItem = QuizItems.BUNSEN_BURNER.itemName
+            val intent = Intent(this, MainActivity::class.java)
+            cameraResultLauncher.launch(intent)
+        }
+
+
     }
 
     fun checkResult(isCorrect: Boolean){
