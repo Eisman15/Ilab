@@ -17,19 +17,22 @@
             <ImageView
                 android:id="@+id/aboutImage"
                 android:layout_width="match_parent"
-                android:layout_height="233dp"
+                android:layout_height="200dp"
+                android:background="#296AB1"
+                android:backgroundTint="#0C3A7E"
+                android:paddingBottom="10dp"
                 android:scaleType="fitCenter" />
 
 
             <TextView
-                android:paddingLeft="5dp"
-                android:paddingRight="5dp"
-
                 android:id="@+id/aboutText"
                 android:layout_width="match_parent"
+
                 android:layout_height="300dp"
-                android:fadeScrollbars="true"
+                android:fadeScrollbars="false"
                 android:isScrollContainer="true"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
                 android:scrollIndicators="right"
                 android:scrollbarAlwaysDrawVerticalTrack="true"
                 android:scrollbarSize="14dp"

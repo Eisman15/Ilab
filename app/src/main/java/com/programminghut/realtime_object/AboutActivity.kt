@@ -42,35 +42,35 @@ class AboutActivity : AppCompatActivity() {
         }
 
         dropperText.setOnClickListener {
-            aboutImage.setImageResource(R.drawable.bunsen_burner)
+            aboutImage.setImageResource(R.drawable.dropper)
             aboutText.text = getString(R.string.about_bunsen_burner)
         }
 
 
         forcepsText.setOnClickListener {
-            aboutImage.setImageResource(R.drawable.bunsen_burner)
+            aboutImage.setImageResource(R.drawable.forceps)
             aboutText.text = getString(R.string.about_forceps)
         }
 
         graduatedCylinderText.setOnClickListener {
-            aboutImage.setImageResource(R.drawable.bunsen_burner)
+            aboutImage.setImageResource(R.drawable.graduatedcylinder)
             aboutText.text = getString(R.string.about_graduatedcylinder)
         }
         magnifyingGlassText.setOnClickListener {
-            aboutImage.setImageResource(R.drawable.bunsen_burner)
+            aboutImage.setImageResource(R.drawable.magnifyingglass)
             aboutText.text = getString(R.string.about_magnifyingglass)
         }
 
         microscopeText.setOnClickListener {
-            aboutImage.setImageResource(R.drawable.bunsen_burner)
+            aboutImage.setImageResource(R.drawable.microscope)
             aboutText.text = getString(R.string.about_microscope)
         }
         spatulaText.setOnClickListener {
-            aboutImage.setImageResource(R.drawable.bunsen_burner)
+            aboutImage.setImageResource(R.drawable.spatula)
             aboutText.text = getString(R.string.about_spatula)
         }
         funnelText.setOnClickListener {
-            aboutImage.setImageResource(R.drawable.bunsen_burner)
+            aboutImage.setImageResource(R.drawable.funnel)
             aboutText.text = getString(R.string.about_funnel)
         }
     }
