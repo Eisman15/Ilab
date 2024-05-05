@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/backgroundImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#363aef" />
+
+        <ImageView
+            android:id="@+id/bunsenBurnerImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@id/bunsenBurnerButton"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="37dp"
+            android:src="@drawable/x_mark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+          android:layout_marginTop="30dp"
+            android:textSize="40sp"
+            android:padding="5dp"
+            android:backgroundTint="#2196F3"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+
+            android:background="@color/white"
+            android:id="@+id/title"
+            android:text="10 - Quiz"
+            />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:layout_below="@id/title"
+            android:layout_marginTop="30dp"
+            android:background="@color/white"
+            android:id="@+id/infoView"
+            android:text="Take a picture of the required object"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:layout_below="@id/infoView"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:id="@+id/statusText"
+            android:text="Status"
+            />
+
+        <Button
+            android:id="@+id/beakerButton"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_below="@id/statusText"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/teal_200"
+            android:paddingHorizontal="30dp"
+            android:paddingVertical="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="Beaker" />
+        
+        <ImageView
+            android:id="@+id/beakerImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/x_mark"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="35dp"
+            android:layout_alignTop="@id/beakerButton"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/testTubeButton"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="25sp"
+            android:layout_marginStart="10dp"
+            android:layout_below="@id/beakerButton"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/teal_200"
+            android:paddingHorizontal="30dp"
+            android:paddingVertical="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="Test Tube" />
+
+        <ImageView
+            android:id="@+id/testTubeImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="35dp"
+            android:src="@drawable/x_mark"
+            android:layout_alignTop="@id/testTubeButton"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/bunsenBurnerButton"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/testTubeButton"
+            android:layout_alignParentStart="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="11dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/teal_200"
+            android:paddingVertical="10dp"
+            android:text="Bunsen Burner"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/dropperButton"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bunsenBurnerButton"
+            android:layout_alignParentStart="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="11dp"
+            android:paddingHorizontal="30dp"
+            android:paddingVertical="10dp"
+            android:text="Dropper"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/teal_200"
+
+            android:textSize="25sp" />
+        <ImageView
+            android:id="@+id/dropperImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="35dp"
+            android:src="@drawable/x_mark"
+            android:layout_alignTop="@id/dropperButton"
+            android:layout_alignParentEnd="true" />
+        <Button
+            android:id="@+id/forcepsButton"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dropperButton"
+            android:layout_alignParentStart="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="11dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/teal_200"
+
+            android:paddingHorizontal="30dp"
+            android:paddingVertical="10dp"
+            android:text="Forceps"
+            android:textSize="25sp" />
+        <ImageView
+            android:id="@+id/forcepsImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="35dp"
+            android:src="@drawable/x_mark"
+            android:layout_alignTop="@id/forcepsButton"
+            android:layout_alignParentEnd="true" />
+        <Button
+            android:id="@+id/funnelButton"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/forcepsButton"
+            android:layout_alignParentStart="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="11dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/teal_200"
+            android:paddingHorizontal="30dp"
+            android:paddingVertical="10dp"
+            android:text="Funnel"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/funnelImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="35dp"
+            android:src="@drawable/x_mark"
+            android:layout_alignTop="@id/funnelButton"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/graduatedCylinderButton"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/funnelButton"
+            android:layout_alignParentStart="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="11dp"
+            android:paddingHorizontal="30dp"
+            android:paddingVertical="10dp"
+            android:text="Graduated Cylinder"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/teal_200"
+            android:textSize="25sp" />
+
+
+        <ImageView
+            android:id="@+id/graduatedCylinderImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="35dp"
+            android:src="@drawable/x_mark"
+            android:layout_alignTop="@id/graduatedCylinderButton"
+            android:layout_alignParentEnd="true" />
+        <Button
+            android:id="@+id/magnifyingGlassButton"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/graduatedCylinderButton"
+            android:layout_alignParentStart="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="11dp"
+            android:paddingHorizontal="30dp"
+            android:paddingVertical="10dp"
+            android:text="Magnifying Glass"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/teal_200"
+            android:textSize="25sp" />
+        <ImageView
+            android:id="@+id/magnifyingGlassImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="35dp"
+            android:src="@drawable/x_mark"
+            android:layout_alignTop="@id/magnifyingGlassButton"
+            android:layout_alignParentEnd="true" />
+        <Button
+            android:id="@+id/microscopeButton"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/magnifyingGlassButton"
+            android:layout_alignParentStart="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="11dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/teal_200"
+            android:paddingHorizontal="30dp"
+            android:paddingVertical="10dp"
+            android:text="Microscope"
+            android:textSize="25sp" />
+        <ImageView
+            android:id="@+id/microscopeImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="35dp"
+            android:src="@drawable/x_mark"
+            android:layout_alignTop="@id/microscopeButton"
+            android:layout_alignParentEnd="true" />
+
+
+        <Button
+            android:id="@+id/spatulaButton"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/microscopeButton"
+            android:layout_alignParentStart="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="11dp"
+            android:paddingHorizontal="30dp"
+            android:paddingVertical="10dp"
+            android:text="Spatula"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/teal_200"
+            android:textSize="25sp" />
+        <ImageView
+            android:id="@+id/spatulaImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="35dp"
+            android:src="@drawable/x_mark"
+            android:layout_alignTop="@id/spatulaButton"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+</ScrollView>
